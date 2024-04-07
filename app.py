@@ -7,6 +7,7 @@ import nltk
 nltk.data.path.append("https://github.com/akashthakur4553/flask_deploy/tree/main/stopwords/stopwords")
 nltk.data.path.append("https://github.com/akashthakur4553/flask_deploy/tree/main/nltk_data/stopwords")
 nltk.download("stopwords")
+nltk.download('stopwords', download_dir='/opt/render/nltk_data')
 import spacy
 
 app = Flask(__name__)
