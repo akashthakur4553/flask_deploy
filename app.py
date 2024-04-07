@@ -4,7 +4,7 @@ import os
 
 # from docx import Document
 import nltk
-
+nltk.data.path.append("https://github.com/akashthakur4553/flask_deploy/tree/main/stopwords/stopwords")
 nltk.download("stopwords")
 import spacy
 
