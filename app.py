@@ -4,6 +4,8 @@ import os
 
 # from docx import Document
 import nltk
+
+nltk.download("stopwords")
 import spacy
 
 app = Flask(__name__)
